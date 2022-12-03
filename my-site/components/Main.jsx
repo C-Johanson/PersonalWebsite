@@ -19,7 +19,7 @@ const Main = () => {
                 
                 <div className='flex items-center justify-between m-auto py-4 max-w-[70%] '>
                     <div>
-                        <a target='_blank' href="https://www.linkedin.com/in/chris-johanson-75931b24a/">
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/chris-johanson-75931b24a/">
                         <div className='w-[45px] h-[45px] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 hover:bg-blue-400 ease-in duration-150'>
                             <FaLinkedinIn  size='lg'/>
                         </div>
@@ -27,7 +27,7 @@ const Main = () => {
                     </div>
 
                     <div>
-                        <a target='_blank' href="https://github.com/C-Johanson/">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/C-Johanson/">
                         <div className='w-[45px] h-[45px] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 hover:bg-purple-400 ease-in duration-150'>
                             <FaGithub size='lg'/>
                         </div>
@@ -35,7 +35,7 @@ const Main = () => {
                     </div>
 
                     <div>
-                        <a target='_blank' href="mailto:C.Alx.Johanson@gmail.com">
+                        <a target='_blank' rel="noreferrer" href="mailto:C.Alx.Johanson@gmail.com">
                         <div className='w-[45px] h-[45px] rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 hover:bg-red-400 ease-in duration-150'>
                         <AiOutlineMail size='lg'/>
                         </div>
